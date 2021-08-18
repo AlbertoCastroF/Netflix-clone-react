@@ -49,19 +49,19 @@ export default function Signup() {
             <Form.Input
               placeholder="First Name"
               value={firstName}
-              onChange={(target) => setFirstName(target.value)}
+              onChange={({ target }) => setFirstName(target.value)}
             ></Form.Input>
             <Form.Input
               placeholder="Email"
               value={emailAddress}
-              onChange={(target) => setEmailAddress(target.value)}
+              onChange={({ target }) => setEmailAddress(target.value)}
             ></Form.Input>
             <Form.Input
               type="password"
               placeholder="Password"
               autoComplete="off"
               value={password}
-              onChange={(target) => setPassword(target.value)}
+              onChange={({ target }) => setPassword(target.value)}
             ></Form.Input>
             <Form.Submit
               disabled={isInvalid}
