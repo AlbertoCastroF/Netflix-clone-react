@@ -21,7 +21,7 @@ export function BrowseContainer({ slides }) {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       setLoading(false);
     }, 3000);
   }, [profile]);
