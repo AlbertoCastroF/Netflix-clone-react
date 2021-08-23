@@ -1,6 +1,7 @@
-compound components
-styled components
-firebase as datastore
+This is an App created using compound components, styled components, hooks, react-router and firebase as datastore.
+This project is part of scrimba.com developer career path.
+
+
 
 
 # Getting Started with Create React App
