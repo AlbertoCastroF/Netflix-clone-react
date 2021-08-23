@@ -1,5 +1,6 @@
 This is an App created using compound components, styled components, hooks, react-router and firebase as datastore.
 This project is part of scrimba.com developer career path.
+You can search for series, films and navigate through the sites multiple pages.
 
 
 
