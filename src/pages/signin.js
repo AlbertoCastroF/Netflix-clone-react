@@ -35,7 +35,7 @@ export default function Signin() {
     <>
       <HeaderContainer>
         <Form>
-          <Form.Title>Sign In sdfsadfsdf</Form.Title>
+          <Form.Title>Sign In</Form.Title>
           <Form.Text>
             For convinience you can sign in using the next email and password:
           </Form.Text>
