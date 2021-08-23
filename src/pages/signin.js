@@ -36,6 +36,11 @@ export default function Signin() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign In</Form.Title>
+          <Form.Text>
+            For convinience you can sign in using the next email and password:
+          </Form.Text>
+          <Form.Text>Email: testuser@gmail.com</Form.Text>
+          <Form.Text>Password: testpass</Form.Text>
           {error && <Form.Err>{error}</Form.Err>}
           <Form.Base onSubmit={handleSignin} method="POST">
             <Form.Input
